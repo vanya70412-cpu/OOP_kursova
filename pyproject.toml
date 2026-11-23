@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project_task_system"
+version = "1.0.0"
+authors = [
+    { name = "Ісайкін І. М." }
+]
+description = "Консольний застосунок (CLI) для планування та контролю виконання завдань програмного проєкту (Варіант 20)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+task-system = "main:run_cli"

@@ -1,0 +1,8 @@
+{
+    "company_name": "SoftLine Ukraine",
+    "max_hours_limit": 80.0,
+    "default_hourly_rate": 500.0,
+    "backup_file": "project_state.pkl",
+    "report_file": "project_report.csv",
+    "csv_delimiter": ";"
+}
